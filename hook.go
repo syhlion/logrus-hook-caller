@@ -1,4 +1,4 @@
-package hook
+package hookcaller
 
 import (
 	"path/filepath"
