@@ -1,4 +1,4 @@
-package hookcaller
+package logcaller
 
 import (
 	"path/filepath"
