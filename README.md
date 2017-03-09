@@ -18,7 +18,7 @@ l := logrus.New()
 l.AddHook(&logcaller.CallerHook{})
 l.Warn("test")
 
-//if you log arningit can stdout like this
+//if you log it can stdout like this
 //time="2017-02-10T14:26:19+08:00" level=warning msg="test" caller="api.go:200"
 
 ```
