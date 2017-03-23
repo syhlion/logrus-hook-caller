@@ -9,14 +9,17 @@ import (
 	"github.com/Sirupsen/logrus"
 )
 
+//CallerHook it's for logrus
 type CallerHook struct {
 }
 
+//Fire logurs hook interface
 func (hook *CallerHook) Fire(entry *logrus.Entry) error {
 	entry.Data["caller"] = hook.caller(5)
 	return nil
 }
 
+//Levels logurs hook interface
 func (hook *CallerHook) Levels() []logrus.Level {
 	return []logrus.Level{
 		logrus.PanicLevel,

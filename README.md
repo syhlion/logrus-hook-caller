@@ -1,5 +1,8 @@
 # logrus error caller plugin
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/syhlion/logrus-hook-caller)](https://goreportcard.com/report/github.com/syhlion/logrus-hook-caller)
+[![Build Status](https://travis-ci.org/syhlion/logrus-hook-caller.svg?branch=master)](https://travis-ci.org/syhlion/logrus-hook-caller)
+
 logrus log show caller
 
 ## Requirements
